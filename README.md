@@ -25,6 +25,24 @@ disponíveis no site da Sociedade Brasileira de Computação (SBC).
 
 ## :pushpin: UML
 
+O projeto está estruturado em 3 camadas, seguindo a arquitetura MVC.
+
+Na **camada de visualização** temos a interface do swagger, e a própria API. Sendo
+esse o método principal de interfação entre o usuário e a aplicação.
+
+Na **camada de controle**, temos as interações com a base de dados. Utilizando
+como base o SDK da AWS para interagir com o bucket que armazena os arquivos das
+provas.
+
+Por fim, na **camada de modelagem** temos os protótipos dos objetos que podem ser
+utilizados na aplicação.
+
+Essas três camadas promovem uma modularização na aplicação de tal maneira que as
+responsabilidades estão divididas entre vários componentes. Facilitando a
+menutenção futura. Por exemplo, caso haja necessidade de implementar um novo
+método de interação com a base de dados, a lógica será de responsabilidade do
+controller, e a disponibilização ao usuário atráves da API.
+
 ![image](https://user-images.githubusercontent.com/38339200/201173870-23ea975d-a7c9-4766-b549-ab10f67af644.png)
 
 ## :computer: Execução
