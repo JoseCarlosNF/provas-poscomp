@@ -25,6 +25,8 @@ disponíveis no site da Sociedade Brasileira de Computação (SBC).
 
 ## :pushpin: UML
 
+![image](https://user-images.githubusercontent.com/38339200/201173870-23ea975d-a7c9-4766-b549-ab10f67af644.png)
+
 ## :computer: Execução
 
 Aplicação disponível no endereço abaixo
