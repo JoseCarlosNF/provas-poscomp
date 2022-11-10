@@ -25,7 +25,8 @@ disponíveis no site da Sociedade Brasileira de Computação (SBC).
 
 ## :pushpin: UML
 
-O projeto está estruturado em 3 camadas, seguindo a arquitetura MVC.
+Utilizando-se do pattern ***Façade***, o projeto está estruturado em 3 camadas,
+seguindo a arquitetura MVC.
 
 Na **camada de visualização** temos a interface do swagger, e a própria API. Sendo
 esse o método principal de interfação entre o usuário e a aplicação.
