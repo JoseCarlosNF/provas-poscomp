@@ -27,6 +27,10 @@ disponíveis no site da Sociedade Brasileira de Computação (SBC).
 
 ## :computer: Execução
 
+Aplicação disponível no endereço abaixo
+
+<https://ovbgzp3yn6.execute-api.us-east-1.amazonaws.com/docs>
+
 # Detalhes técnicos do projeto
 
 Nessa seção esclarece quais técnologias foram utilizadas, e como e onde estamos
