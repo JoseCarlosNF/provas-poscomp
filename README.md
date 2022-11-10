@@ -23,7 +23,44 @@ disponíveis no site da Sociedade Brasileira de Computação (SBC).
 > quaisquer aspectos legais que envolvem o projeto. Em caso de dúvidas ou
 > questionamentos, entre em contato pelos meios disbilizados no perfil.
 
-## UML
+## :pushpin: UML
 
-## Execução
+## :computer: Execução
 
+# Detalhes técnicos do projeto
+
+Nessa seção esclarece quais técnologias foram utilizadas, e como e onde estamos
+rodando a aplicação.
+
+## :whale: Build das imagens
+
+### PROD
+
+```
+make build
+```
+
+### DEV
+
+```
+make build-dev
+```
+
+## :rocket: Como o projeto roda?
+
+### PROD
+
+O ambiente de produção é baseado em *serverless*, e utiliza os seguintes
+recursos da AWS:
+
+- Lambda: para rodar a app.
+- API Gateway: para disponibilizar uma url de acesso.
+- Bucket S3: para armazenar os aquivos.
+
+### DEV
+
+No ambiente local, podemos utilizar o container.
+
+```
+make dev
+```
